@@ -1,20 +1,156 @@
-<h3 align="center">A passionate Data Analyst</h3>
+# 🚲 Cyclistic Bike Share Analysis (2022–2024)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=chathu&label=Profile%20views&color=0e75b6&style=flat" alt="chathu" /> </p>
+An end-to-end **Data Analyst portfolio project** analyzing over **13 million bike rides** from the Cyclistic bike-sharing program (2022–2024).  
+This project demonstrates real-world skills in **Python, SQL, Kaggle, GitHub, and Power BI**.
 
-- 🌱 I’m currently learning **Data Science, SQL, Python, Power BI, Analytics Tool etc.**
+---
 
-- 💬 Ask me about **Data analysis**
+## 📌 Project Objective
 
-- 📫 How to reach me **chathuranaga.cont@gmail.com**
+The primary goal of this project is to analyze how **members and casual riders** use Cyclistic bikes differently and to extract **business insights** that can help improve:
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/chathuranga-sudusinghe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chathuranga-sudusinghe" height="30" width="40" /></a>
-<a href="https://kaggle.com/indrajithsudusinghe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="indrajithsudusinghe" height="30" width="40" /></a>
-</p>
+- Customer retention
+- Marketing strategies
+- Bike station planning
+- Operational efficiency
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=chathu&show_icons=true&locale=en&layout=compact" alt="chathu" /></p>
+## 📊 Dataset Information
+
+- **Source:** Kaggle  
+- **Years Covered:** 2022, 2023, 2024  
+- **Total Records:** 13,065,124 rides  
+- **Total Columns:** 21 features  
+- **Status:** Fully cleaned & production-ready  
+
+Main features include:
+- Ride ID
+- Bike type
+- Start / End time
+- Start / End station
+- Latitude & Longitude
+- Ride duration
+- Member type (Casual / Member)
+- Time-based features (Hour, Day, Month, Season)
+
+---
+
+## 🧰 Tools & Technologies Used
+
+- **Python (Pandas, NumPy)** – Data Cleaning & Feature Engineering  
+- **Kaggle Notebooks** – Online Data Processing  
+- **GitHub** – Version Control & Portfolio Hosting  
+- **SQL** – Business Query Analysis *(Upcoming)*  
+- **Power BI** – Interactive Dashboards *(Upcoming)*  
+
+---
+
+## 🧹 Data Cleaning Summary
+
+The following steps were performed:
+
+- ✅ Merged 3 large datasets (2022–2024)
+- ✅ Handled over **4 million missing station values** safely using `"Unknown"`
+- ✅ Converted `started_at` and `ended_at` to proper datetime format
+- ✅ Verified:
+  - No duplicate Ride IDs
+  - No negative or zero ride durations
+  - No null datetime values
+- ✅ Created a **single MASTER CLEAN dataset (2GB)**
+
+Final output:
+
+---
+
+## 📈 Key Business Questions (Planned Analysis)
+
+- How do **casual vs member riders** differ in usage behavior?
+- What are the **most popular stations**?
+- Which **time of day and season** has peak demand?
+- How does **ride duration vary** by rider type and bike type?
+- What are the **growth trends across years**?
+
+---
+
+## 📊 Power BI Dashboard (Coming Soon)
+
+The final dashboard will include:
+
+- Total rides & ride duration KPIs
+- Member vs Casual comparison
+- Hourly & monthly trends
+- Top start & end stations
+- Bike type usage analysis
+- Geographic ride distribution (Map)
+
+---
+
+## 🗄️ SQL Analysis (Coming Soon)
+
+This project will also include:
+
+- SQL database creation
+- Business-level queries
+- Performance-optimized aggregations
+- View & index usage
+
+---
+
+## 📁 Project Structure
+cyclistic-bike-share-analysis/
+│
+├── notebooks/
+│ └── cyclistic-bike-share-2022-2024.ipynb
+│
+├── data/
+│ └── cyclistic_2022_2024_MASTER_CLEAN.csv
+│
+├── sql/
+│ └── analysis_queries.sql
+│
+├── power_bi/
+│ └── cyclistic_dashboard.pbix
+│
+└── README.md
+
+
+---
+
+## 🌍 Kaggle Notebook
+
+You can view the full live Kaggle analysis here:  
+🔗 https://www.kaggle.com/code/indrajithsudusinghe/cyclistic-bike-share-2022-2024
+
+---
+
+## 👤 Author
+
+**Chathuranga Sudusinghe**  
+Aspiring Data Analyst  
+Skilled in: Python | SQL | Power BI | Data Visualization | Data Cleaning  
+
+---
+
+## ⭐ How to Use This Project
+
+1. Clone the repository  
+2. Explore the Kaggle notebook  
+3. Load the master CSV into SQL or Power BI  
+4. Run your own analysis or build dashboards  
+
+---
+
+## 📢 Status
+
+✅ Data Cleaning Completed  
+✅ Dataset Public  
+✅ GitHub Synced  
+🔄 SQL Analysis – In Progress  
+🔄 Power BI Dashboard – In Progress  
+
+---
+
+✅ *If you found this project useful, please give it a ⭐ on GitHub!*
+
+
