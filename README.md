@@ -127,7 +127,7 @@ You can view the full live Kaggle analysis here:
 ## 👤 Author
 
 **Chathuranga Sudusinghe**  
-Aspiring Data Analyst  
+Data Analyst  
 Skilled in: Python | SQL | Power BI | Data Visualization | Data Cleaning  
 
 ---
